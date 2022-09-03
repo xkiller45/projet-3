@@ -6,7 +6,7 @@
 body {
   font-family: "Open Sans", arial, sans-serif;
   font-weight: 500;
-  font-size: large;
+  font-size: medium;
   width: 100%;
   margin: auto;
 }
@@ -24,12 +24,45 @@ body {
 .location__around {
   display: flex;
   justify-content: center;
-  background-color: #ebebeb;
+  background-color: #e6e6e6a2;
 }
 .location__space {
   margin-right: 20px;
 }
 .location__p {
   margin-right: 25px;
+  font-weight: 400;
+}
+.explore__around {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 260px;
+  background-color: #dfdfdf34;
+}
+.explore__title{
+  width: 287px;
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.explore__p {
+  width: 331px;
+  text-align: center;
+  margin-top: -12px;
+}
+.explore__button {
+  width: 190px;
+  height: 45px;
+  border: none;
+  border-radius: 35px 35px 35px 35px;
+  box-shadow: 0px 5px 15px -3px #999;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  color: white;
+  margin-top: 10px;
+}
+.functioning__around {
+  margin-top: 35px;
 }
 } 
