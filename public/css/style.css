@@ -12,11 +12,13 @@ body {
 }
 @media all and (max-width: 768px)
 {
+/*header*/
 .logo__around {
   display: flex;
   justify-content: center;
+  box-shadow: 0px 5px 5px -5px;
   margin-top: 30px;
-  margin-bottom: 17px;
+  padding-bottom: 15px;
 }
 .logo {
   width: 180px;
@@ -66,6 +68,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 430px;
   margin-top: 35px;
 }
 .functioning__title {
@@ -93,6 +96,9 @@ ul {
 .functioning-hover :hover .functioning__space {
   color:#9356DC;
 }
+.functioning-hover :hover .functioning__circle {
+  background-color: #9356DC;
+}
 .functioning__circle {
   border: 1px solid #9356DC;
   border-radius: 35px 35px 35px 35px;
@@ -113,5 +119,117 @@ ul {
 .fa__color {
   color: #999;
 }
+/*main*/
+.card__around {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #dfdfdf34;
+  height: 1110px;
+}
+.card__title {
+  margin-left: -173px;
+  margin-top: 45px;
+}
+.card
+{
+    width: 315px;
+    height: 220px;
+    background-color: white;
+    box-shadow: 0px 0px 9px #999;
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 20px;
+}
+.card a
+{
+    color: black;
+    text-decoration: none;
+}
+.card__image
+{
+    height: 151px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    border-radius: 15px 15px 0px 0px;
+}
+.card__image img
+{
+    width: 320px;
+    position: absolute;
+    top: -54px;
+    left: -3px;
+}
+.card__body {
+  padding-left: 3%;
+  margin-top: -10px;
+  height: 45px;
+}
+.card__name {
+  margin-bottom: -20px;
+}
+.card__heart {
+  position: relative;
+  bottom: 41px;
+  margin-left: 263px;
+}
+.fa-heart {
+  font-size: x-large;
+}
+.card__new {
+  font-weight: 600;
+  position: relative;
+  bottom: 221px;
+  font-size: small;
+  width: 66px;
+  height: 22px;
+  border: 1px solid #99E2D0;
+  background-color: #99E2D0;
+  border-radius: 3px;
+  color: green;
+  margin-left: 215px;
+  padding-left: 7px;
+  padding-top: 2px;
+}
+.card__image__second img {
+  width: 315px;
+  position: absolute;
+  top: -149px;
+  left: 0px;
+}
+/*footer*/
+.footer__around {
+  background-color: #000000c4;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+}
+.footer__logo img {
+  width: 108px;
+  margin: 25px 0px 5px -157px;
+}
+.footer__style {
+  list-style-type: none;
+  padding: 0px;
+  margin: 7px 0px 0px -116px;
+  font-weight: 100;
+}
+.footer__text {
+  margin-bottom: 5px;
+}
+.footer__icon__one {
+  margin-right: 16px;
+}
+.footer__icon__two {
+  margin-right: 10px;
+}
+.footer__mail {
+  text-decoration: none;
+  color: white;
+}
+
 } 
-/*git*/
