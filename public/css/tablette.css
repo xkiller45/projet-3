@@ -1,12 +1,55 @@
-body {
-  font-family: 'Open Sans', arial, sans-serif;
-  font-weight: 500;
-  font-size: medium;
-  width: 100%;
-  margin: auto;
+@media all and (max-width: 992px) {
+.logo__around {
+display: flex;
+justify-content: center;
+box-shadow: 0px 5px 5px -5px;
+margin-top: 30px;
+padding-bottom: 15px;
 }
-@media all and (max-width: 768px)
-{
+.logo {
+  width: 180px;
+}
+.location__around {
+  display: flex;
+  justify-content: center;
+  background-color: #e6e6e6a2;
+}
+.location__space {
+  margin-right: 20px;
+}
+.location__p {
+  margin-right: 25px;
+  font-weight: 400;
+}
+.explore__around {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 260px;
+  background-color: #dfdfdf34;
+}
+.explore__title{
+  width: 287px;
+  display: flex;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.explore__p {
+  width: 331px;
+  text-align: center;
+  margin-top: -12px;
+}
+.explore__button {
+  width: 190px;
+  height: 45px;
+  border: none;
+  border-radius: 35px 35px 35px 35px;
+  box-shadow: 0px 5px 15px -3px #999;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  color: white;
+  margin-top: 10px;
+}
 /*main*/
 .functioning__position {
   display: flex;
@@ -63,7 +106,6 @@ ul {
 .fa__color {
   color: #999;
 }
-/*main*/
 .card__around {
   display: flex;
   flex-direction: column;
@@ -154,5 +196,38 @@ ul {
   top: -149px;
   left: 0px;
 }
-
-} 
+/*footer*/
+.footer__around {
+  background-color: #000000c4;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+}
+.footer__logo {
+  width: 88px;
+  margin: 25px 0px 5px -228px;
+  font-size: large;
+  font-family: 'Shrikhand', cursive;
+}
+.footer__style {
+  list-style-type: none;
+  padding: 0px;
+  margin: 7px 0px 0px -116px;
+  font-weight: 100;
+}
+.footer__text {
+  margin-bottom: 5px;
+}
+.footer__icon__one {
+  margin-right: 16px;
+}
+.footer__icon__two {
+  margin-right: 10px;
+}
+.footer__mail {
+  text-decoration: none;
+  color: white;
+}
+}

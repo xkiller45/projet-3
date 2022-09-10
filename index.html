@@ -7,7 +7,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" media="all and (max-width: 992px)" href="public/css/tablette.css" />
     <script src="https://kit.fontawesome.com/a09481e82f.js" crossorigin="anonymous"></script>
     <title>Ohmyfood</title>
 </head>
@@ -28,7 +32,10 @@
             <p class="explore__p">Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
             <button class="explore__button">Explorer nos restaurants</button>
         </div>
+    
+    </header>
 
+    <main>
         <div class="functioning__position">
             <h2 class="functioning__title">Fonctionnement</h2>
             <ul class="functioning-hover">
@@ -40,9 +47,7 @@
                <i class="fa-sharp fa-solid fa-store functioning__space fa__color"></i>Dégustez au restaurant</li>
             </ul>
         </div>
-    </header>
 
-    <main>
         <div class="card__around">
             <h2 class="card__title">Restaurants</h2>
             <div class="card">
@@ -59,6 +64,7 @@
                         </div>
                         <div class="card__heart">
                             <i class="fa-regular fa-heart"></i>
+                            <i class="fa-solid fa-heart heart__animation"></i>
                         </div>
                         <div class="card__new">
                             Nouveau
@@ -126,11 +132,11 @@
                     </div>
                 </a>
             </div>
-        </div>
+      </div>  
 
         <footer>
             <div class="footer__around">
-                <div class="footer__logo"><img src="/public/img/ohmyfood.png" alt="logo"></div>
+                <div class="footer__logo">ohmyfood</div>
                 <ul class="footer__style">
                     <li class="footer__text"><i class="fa-solid fa-utensils footer__icon__one">
                     </i>Proposer un restaurant</li>
@@ -141,7 +147,6 @@
                 </ul>
             </div>
         </footer>
-
     </main>
 </body>
 </html>
