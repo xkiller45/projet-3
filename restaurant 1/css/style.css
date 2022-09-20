@@ -1,0 +1,141 @@
+  body {
+    font-family: 'Open Sans', arial, sans-serif;
+    font-weight: 500;
+    font-size: medium;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
+  /*header*/
+  .logo__around {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 11px;
+  }
+  .fa-arrow-left {
+    position: relative;
+    left: -55px;
+    top: 5px;
+  }
+  .logo {
+    width: 180px;
+  }
+  .header__image {
+    width: 100%;
+    margin: auto;
+    height: auto;
+  }
+  .header__image img {
+    width: 100%;
+    height: auto;
+  }
+  /*main*/
+  .main__around {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -60px;
+    margin: auto;
+    border-radius: 30px 30px 0px 0px;
+    width: 100%;
+    background: #f7f6f6;
+    margin-bottom: -60px;
+  }
+  h2 {
+    font-family: 'Shrikhand', cursive;
+    font-weight: 100;
+    margin-left: -10px;
+    margin-bottom: 0px;
+  }
+  .fa-heart {
+    margin-left: 35px;
+  }
+  .main__position {
+    margin-left: 0px;
+  }
+  h4 {
+    font-weight: 400;
+    border-bottom: 3px solid #99E2D0;
+    width: 40px;
+    margin-bottom: 15px;
+    padding-bottom: 3px;
+  }
+  .main__card__marge {
+    margin-bottom: 35px;
+  }
+  .main__card__around {
+    width: 340px;
+    background-color: white;
+    border-radius: 15px;
+    height: 63px;
+    padding-left: 12px;
+    margin-bottom: 15px;
+    box-shadow: 0px 5px 12px -3px #999;
+  }
+  .main__card__plate {
+    font-weight: 600;
+    padding-top: 8px;
+    font-size: large;
+  }
+  .main__card__description {
+    font-size: smaller;
+  }
+  .main__card__price {
+    position: relative;
+    top: -22px;
+    left: 303px;
+    width: 0px;
+    font-weight: 600;
+  }
+  .explore__around {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .explore__button {
+    width: 170px;
+    height: 45px;
+    border: none;
+    border-radius: 35px 35px 35px 35px;
+    box-shadow: 0px 5px 15px -3px #999;
+    background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+    color: white;
+    margin-top: 10px;
+  }
+ /*footer*/
+ .footer__around {
+    background-color: #000000c4;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+  }
+  .footer__logo {
+    width: 88px;
+    margin: 25px 0px 5px -228px;
+    font-size: large;
+    font-family: 'Shrikhand', cursive;
+  }
+  .footer__style {
+    list-style-type: none;
+    padding: 0px;
+    margin: 7px 0px 0px -116px;
+    font-weight: 100;
+  }
+  .footer__text {
+    margin-bottom: 5px;
+  }
+  .footer__icon__one {
+    margin-right: 16px;
+  }
+  .footer__icon__two {
+    margin-right: 10px;
+  }
+  .footer__mail {
+    text-decoration: none;
+    color: white;
+  }
