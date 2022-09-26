@@ -11,9 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a09481e82f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="restaurant 1/css/style.css">
-    <link rel="stylesheet" media="all and (min-width: 768px) and (max-width: 992px)" href="restaurant 1/css/tablette.css">
-    <link rel="stylesheet" media="all and (min-width: 993px)" href="restaurant 1/css/desktop.css">
+    <link rel="stylesheet" href="static/css/restaurant-style.css">
+    <link rel="stylesheet" media="all and (min-width: 768px) and (max-width: 992px)" href="static/css/restaurant-tablette.css">
+    <link rel="stylesheet" media="all and (min-width: 993px)" href="static/css/restaurant-desktop.css">
     <title>Ohmyfood</title>
 </head>
 
@@ -21,73 +21,94 @@
 
     <header>
         <div class="logo__around">
-            <a href="index.html"><i class="fa-solid fa-arrow-left"></i></a>
-            <img src="restaurant 1/img/ohmyfood.png" alt="logo" class="logo"/>
+            <a href="index.html" title="Accueil Ohmyfood"><i class="fa-solid fa-arrow-left"></i></a>
+            <img src="static/img/ohmyfood.png" alt="logo" class="logo"/>
         </div>
         <div class="header__image">
-            <img src="restaurant 1/img/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="first-restaurant">
+            <img src="static/img/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="first-restaurant">
         </div> 
     </header>
 
     <main>
 
         <div class="main__around">
-          <h2>La palette du goût<i class="fa-regular fa-heart"></i></h2>
+          <h2>La palette du goût<i class="fa-regular fa-heart"></i><i class="fa-solid fa-heart heart__animation"></i></h2>
           <div class="main__position">
               <h4>ENTRÉES</h4>
               <div class="main__card__marge">
-                  <div class="main__card__around">
+                  <div class="main__card__around animation">
                       <div class="main__card__plate">Fricassée d'escargot</div>
-                      <div class="main__card__description">Au piment d'espelette</div>
-                      <div class="main__card__price">25€</div>
-                  </div>
-                  <div class="main__card__around">
+                      <div class="main__title__description__around">
+                         <div class="main__card__description">Au piment d'espelette</div>
+                         <div class="main__card__price">25€</div>
+                         <div class="card__check__around">
+                            <i class="fa-solid fa-circle-check"></i>
+                         </div>
+                      </div>
+                  </div>    
+                  <div class="main__card__around animation animation-1">
                       <div class="main__card__plate">Foie gras de canard mi-cuit</div>
-                      <div class="main__card__description">Et ses copeaux de truffe noire</div>
-                      <div class="main__card__price">30€</div>
+                      <div class="main__title__description__around">
+                        <div class="main__card__description">Et ses copeaux de truffe noire</div>
+                        <div class="main__card__price">30€</div>
+                      </div>  
                   </div>
-                  <div class="main__card__around">
+                  <div class="main__card__around animation animation-2">
                       <div class="main__card__plate">Oeuf au plat</div>
-                      <div class="main__card__description">Assaisonné à la truffe sur lit de caviar</div>
-                      <div class="main__card__price">20€</div>
+                      <div class="main__title__description__around">
+                        <div class="main__card__description">Assaisonné à la truffe sur lit de caviar</div>
+                        <div class="main__card__price">20€</div>
+                      </div>
                   </div>
               </div> 
 
               <h4>PLATS</h4>
               <div class="main__card__marge">
-                  <div class="main__card__around">
+                  <div class="main__card__around animation animation-3">
                       <div class="main__card__plate">Filet de boeuf aux herbes</div>
-                      <div class="main__card__description">Accompagné de sa ribambelle de légu...</div>
-                      <div class="main__card__price">40€</div>
+                      <div class="main__title__description__around">
+                        <div class="main__card__description">Accompagné de sa ribambelle de légu...</div>
+                        <div class="main__card__price">40€</div>
+                     </div>
                   </div>
-                  <div class="main__card__around">
+                  <div class="main__card__around animation animation-4">
                       <div class="main__card__plate">Parmentier de queue de boeuf</div>
-                      <div class="main__card__description">À la truffe noire sur sa purée de panais</div>
-                      <div class="main__card__price">35€</div>
+                      <div class="main__title__description__around">
+                        <div class="main__card__description">À la truffe noire sur sa purée de panais</div>
+                        <div class="main__card__price">35€</div>
+                      </div>  
                   </div>
-                  <div class="main__card__around">
+                  <div class="main__card__around animation animation-5">
                       <div class="main__card__plate">Filet de Turbot</div>
-                      <div class="main__card__description">Aux agrumes</div>
-                      <div class="main__card__price">44€</div>
+                      <div class="main__title__description__around">
+                        <div class="main__card__description">Aux agrumes</div>
+                        <div class="main__card__price">44€</div>
+                      </div>  
                   </div>
               </div>
               
               <h4>DESSERTS</h4>
               <div>
-                  <div class="main__card__around">
+                  <div class="main__card__around animation animation-6">
                       <div class="main__card__plate">Paris-Brest</div>
-                      <div class="main__card__description">Revisité</div>
-                      <div class="main__card__price">18€</div>
+                      <div class="main__title__description__around">
+                        <div class="main__card__description">Revisité</div>
+                        <div class="main__card__price">18€</div>
+                      </div>  
                   </div>
-                  <div class="main__card__around">
+                  <div class="main__card__around animation animation-7">
                       <div class="main__card__plate">Macaron au chocolat d'exception</div>
-                      <div class="main__card__description">Et glace à la vanille de Madagascar</div>
-                      <div class="main__card__price">22€</div>
+                      <div class="main__title__description__around">
+                        <div class="main__card__description">Et glace à la vanille de Madagascar</div>
+                        <div class="main__card__price">22€</div>
+                      </div>  
                   </div>
-                  <div class="main__card__around">
+                  <div class="main__card__around animation animation-8">
                       <div class="main__card__plate">Mousse au chocolat</div>
-                      <div class="main__card__description">Au piment d'espeltte et à la truffe noire</div>
-                      <div class="main__card__price">23€</div>
+                      <div class="main__title__description__around">
+                        <div class="main__card__description">Au piment d'espeltte et à la truffe noire</div>
+                        <div class="main__card__price">23€</div>
+                      </div>  
                   </div>
               </div>
           </div>  
@@ -105,7 +126,7 @@
                     <li class="footer__text"><i class="fa-solid fa-handshake-angle footer__icon__two">
                     </i>Devenir partenaire</li>
                     <li class="footer__text">Mentions légales</li>
-                    <li class="footer__text"><a href="mailto:ohmyfood@gmail.com" class="footer__mail">Contact</a></li>
+                    <li class="footer__text"><a href="mailto:ohmyfood@gmail.com" class="footer__mail" title="Contacter Ohmyfood">Contact</a></li>
                 </ul>
             </div>
         </footer>

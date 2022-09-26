@@ -1,0 +1,58 @@
+  @media all and (min-width: 993px) {
+  /*header*/
+  .explore__button:hover {
+    box-shadow: 0px 15px 24px -6px #999;
+  }
+  /*main*/
+  .functioning-active :hover {
+    background-color: #f6e7fd8a;
+    box-shadow: 0px 13px 25px -10px #999;
+  }
+  .functioning-active :hover .functioning__space {
+    color:#9356DC;
+  }
+  .functioning-active :hover .functioning__circle {
+    background-color: #9356DC;
+  }
+  .functioning__position {
+    height: auto;
+    margin-bottom: 40px;
+    margin-top: 0px;
+  }
+  .functioning__title {
+    margin-left: 0px;
+    margin-top: 45px;
+  }
+  .functioning__ul {
+    display: flex;
+    gap: 18px;
+  }
+  .card__title {
+    margin-left: 0px;
+    margin-bottom: 40px;
+  }
+  .card__position {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2%;
+  }
+  .card__heart:hover .heart__animation {
+    transform: scale(1.1);
+  }
+  /*footer*/
+  .footer__logo {
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .footer__style {
+    margin: 0px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+  }
+}
+  
