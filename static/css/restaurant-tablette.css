@@ -11,6 +11,14 @@
 h2 {
   font-size: xx-large;
 }
+.fa-heart {
+  top: -35px;
+  left: 179px;
+  font-size: x-large;
+}
+.heart__animation {
+  left: 120px;
+}
 /*footer*/
 .footer__logo {
   margin: 0px;

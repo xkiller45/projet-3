@@ -52,10 +52,14 @@
   }
   .fa-heart {
     margin-left: 35px;
+    position: relative;
+    top: -28px;
+    left: 139px;
+    cursor: pointer;
   }
   .heart__animation {
     position: relative;
-    left: -59px;
+    left: 87px;
     background: linear-gradient(180deg, #9356DC, #FF79DA);
     color: transparent;
     background-clip: text;
@@ -80,7 +84,7 @@
     margin-bottom: 35px;
   }
   .main__card__around {
-    width: 340px;
+    width: 350px;
     background-color: white;
     border-radius: 15px;
     height: 63px;
@@ -88,6 +92,8 @@
     margin-bottom: 15px;
     box-shadow: 0px 5px 12px -3px #999;
     overflow: hidden;
+    cursor: pointer;
+    display: flex;
   }
   .animation {
     animation: 1s linear 0.5s both fadein;
@@ -127,49 +133,65 @@
       opacity: 1;
     }
   }
+  .main__menu__around {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .main__plate__description__around {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    white-space: nowrap;
+  }
   .main__card__plate {
     font-weight: 600;
     padding-top: 8px;
-    font-size: large;
-  }
-  .main__title__description__around {
-    display: flex;
+    font-size: medium;
   }
   .main__card__description {
     font-size: smaller;
   }
   .main__card__price {
+    display: flex;
+    align-items: flex-end;
     font-weight: 600;
-    position: relative;
-    left: 157px;
+    margin-right: 20px;
+    margin-bottom: 10px;
   }
   .card__check__around {
-    position: relative;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
     background-color: #99E2D0;
     border-radius: 0px 15px 15px 0px;
-    right: -178px;
-    top: -32px;
-    width: 63px;
+    width: 0;
     height: 63px;
-    transition: 0.7s ease-in-out;
+    transition: 0.5s ease-in-out;
+    opacity: 0;
   }
   .fa-circle-check {
     color: white;
     font-size: x-large;
   }
-  .main__card__around:hover .card__check__around {
-    right: -115px;
-    transition: 0.7s ease-in-out;
+  .main__card__around:active .main__card__plate {
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
-  .main__card__around:hover .card__check__around i {
-    animation: rotate 0.3s 0.4s linear;
+  .main__card__around:active .main__card__description {
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
-  .main__title__description__around:hover {
-    width: calc(100% - 100px);
+  .main__card__around:active .card__check__around {
+    right: -277px;
+    transition: 0.5s ease-in-out;
+    width: 63px;
+    opacity: 100%;
+  }
+  .main__card__around:active .card__check__around i {
+    animation: rotate 0.3s 0.2s linear;
   }
   @keyframes rotate {
     0% {
